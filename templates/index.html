@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='plain.css') }}">
+
+</head>
+<body>
+    <div class="chat">
+        <h2> Brain🤖</h2>
+        <div id="messages">
+        </div>
+        <div class="input-area">
+        <input type="text" name="user" id="input_user" placeholder="Em kavali mayya....!😉 " >
+        <button id="send"><img src="https://cdn1.iconfinder.com/data/icons/user-interface-circle/512/Up_Arrow-512.png" alt="" widht="60px" height="20px"></button>
+        </div>
+    </div>
+     <script src="{{ url_for('static', filename='idea.js') }}"></script>
+</body>
+</html>
+
+
+
